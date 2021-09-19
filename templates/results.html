@@ -1,0 +1,30 @@
+{% extends 'base.html'%}
+
+{% block head %}
+
+{% endblock %}
+
+
+
+{% block body %}
+<div class="topnav" id="myTopnav">
+    <a href="#home" class="active">
+       Ideate
+    </a>
+    <a href="#contact">Contact</a>
+    <a href="#about">How it works</a>
+</div>
+<h1>
+    For {{Heading}}
+</h1>
+</h1>
+<div class= "links">
+    <ul id="myUL" class= "myURLS" type= >
+        {% for xyz in range(0, 6) %}
+        <li> <a href={{options[xyz]}}> {{options[xyz]}} </a> </li>
+        {% endfor %}  
+    </ul>
+</div>
+
+
+{% endblock %}

@@ -1,0 +1,34 @@
+{% extends 'base.html'%}
+
+{% block head %}
+
+{% endblock %}
+
+
+
+{% block body %}
+<tt>
+    <center>
+        <div>    
+            <h1>
+                Ideator
+            </h1>
+        </div>
+        <div class="container">
+            <form action="/summary" method="get">   
+                
+                
+                <label for="headin">Heading</label>
+                <input type="text" id="headin" name="Heading" placeholder="Descriptive One Liner Heading">
+
+                
+                <label for="para">Description</label>
+                <textarea id="para" name="desc" placeholder="Describe the working of your project."  style="height: 100px"> </textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </center>
+</tt>
+    
+
+{% endblock %}

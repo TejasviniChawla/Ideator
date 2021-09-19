@@ -1,0 +1,19 @@
+{% extends 'base.html'%}
+
+{% block head %}
+
+{% endblock %}
+
+
+
+{% block body %}
+<p1> Hey world! How are you?<br>
+    hello, {{Heading}},{{desc}}
+</p1>
+<ul>
+    {% for a in options %}
+      <li style="list-style-type: bullet;">{{a}}</li>
+    {% endfor %}  
+</ul>
+
+{% endblock %}
