@@ -1,6 +1,6 @@
 from flask import Flask, render_template, url_for, request
-from example import add2
-from ml import add
+from api.example import add2
+from api.ml import add
 
 app= Flask(__name__)
 
