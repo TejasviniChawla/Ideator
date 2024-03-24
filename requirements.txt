@@ -1,11 +1,11 @@
 beautifulsoup4==4.9.3
 bs4==0.0.1
-Flask==2.0.1
-google==3.0.0
-nltk==3.6.2
-numpy==1.21.2
-PyDictionary==2.0.1
-requests==2.26.0
+Flask
+google
+nltk
+numpy
+PyDictionary
+requests
 gunicorn
 
 
